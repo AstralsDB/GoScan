@@ -45,7 +45,7 @@ func main() {
 		for stdout.Scan() {
 			srs := masscan.ParseResult(stdout.Bytes())
 			// fmt.Println(srs.IP, srs.Port)
-			fmt.Printf("%s\t%v\n", srs.IP, srs.Port)
+			fmt.Printf("%s\t\t%v\n", srs.IP, srs.Port)
 			scannerResult = append(scannerResult, srs)
 		}
 	}()
