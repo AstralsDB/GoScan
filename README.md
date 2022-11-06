@@ -1,5 +1,5 @@
 # GoScan
-Mass-scan but easy
+Asynchronous runner for MassScan that can parse results live.
 
 ## Usage
 ```
